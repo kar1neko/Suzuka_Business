@@ -1,3 +1,4 @@
+// MainActivity.kt
 package com.example.suzuka_business_contest
 
 import android.os.Bundle
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_premium
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

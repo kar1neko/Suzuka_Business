@@ -18,8 +18,8 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.suzuka_business_contest.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_premium"
+        android:name="com.example.suzuka_business_contest.ui.premium.PremiumFragment"
+        android:label="@string/menu_premium"
+        tools:layout="@layout/fragment_premium" />
 </navigation>

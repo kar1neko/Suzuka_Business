@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.premium.PremiumFragment">
+
+    <LinearLayout
+        android:id="@+id/bg_Common"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_fragment_premium_common"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <Button
+            android:id="@+id/B_Common"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="17dp"
+            android:backgroundTint="#a9a9a9"
+            android:text="Downgrade"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_Common"
+        android:text="無料プラン"
+        android:textSize="25dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="@+id/bg_Common"
+        app:layout_constraintStart_toStartOf="@+id/bg_Common"/>
+
+    <TextView
+        android:id="@+id/tv_c_fee"
+        android:text="0円/月"
+        android:textSize="20dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Common"
+        app:layout_constraintStart_toStartOf="@+id/bg_Common"
+
+    <LinearLayout
+        android:id="@+id/bg_premium"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/background_fragment_premium_premium"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="0dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/bg_Common"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <Button
+            android:id="@+id/B_Premium"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="17dp"
+            android:backgroundTint="#f8b500"
+            app:layout_constraintTop_toTopOf="@+id/bg_premium"
+            app:layout_constraintStart_toStartOf="@+id/bg_premium"
+            android:text="UPgrade"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_Premium"
+        android:text="プレミアム"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toTopOf="@+id/bg_premium"
+        app:layout_constraintStart_toStartOf="@+id/bg_premium"/>
+
+    <TextView
+        android:id="@+id/tv_P_fee"
+        android:text="x円/月"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginStart="35dp"
+        app:layout_constraintTop_toTopOf="@+id/bg_premium"
+        app:layout_constraintStart_toStartOf="@+id/bg_premium"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
