@@ -1,4 +1,3 @@
-// MainActivity.kt
 package com.example.suzuka_business_contest
 
 import android.os.Bundle
