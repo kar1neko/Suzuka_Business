@@ -71,4 +71,34 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bg_second_function"
+        android:background="@drawable/background_fragment_home_second"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="1dp"
+        app:layout_constraintTop_toBottomOf="@+id/bg_first_function"
+        app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/bg_second_function"
+            app:layout_constraintStart_toStartOf="@+id/bg_second_function" />
+
+
+
+            <Button
+                android:id="@+id/second_function_detail"
+                android:text="詳細"
+                android:textSize="25dp"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="40dp"
+                app:layout_constraintRight_toRightOf="@+id/bg_second_function"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_second_function" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

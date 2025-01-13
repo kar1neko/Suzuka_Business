@@ -47,7 +47,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
         app:layout_constraintTop_toBottomOf="@+id/tv_Common"
-        app:layout_constraintStart_toStartOf="@+id/bg_Common"
+        app:layout_constraintStart_toStartOf="@+id/bg_Common" />
 
     <LinearLayout
         android:id="@+id/bg_premium"
