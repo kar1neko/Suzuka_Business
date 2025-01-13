@@ -22,4 +22,11 @@
         android:name="com.example.suzuka_business_contest.ui.premium.PremiumFragment"
         android:label="@string/menu_premium"
         tools:layout="@layout/fragment_premium" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.suzuka_business_contest.ui.setting.SettingFragment"
+        android:label="@string/action_settings"
+        tools:layout="@layout/fragment_setting" />
+
 </navigation>
