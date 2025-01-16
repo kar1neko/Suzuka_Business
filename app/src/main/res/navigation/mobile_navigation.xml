@@ -9,13 +9,17 @@
         android:id="@+id/nav_home"
         android:name="com.example.suzuka_business_contest.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homefragment_to_premiumfragment"
+            app:destination="@+id/premiumFragment" />
+    </fragment>
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.suzuka_business_contest.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.example.suzuka_business_contest.ui.gallery.GalleryFragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
 
     <fragment
         android:id="@+id/nav_premium"
