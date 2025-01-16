@@ -10,21 +10,26 @@
         android:name="com.example.suzuka_business_contest.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" >
+
         <action
             android:id="@+id/action_homefragment_to_premiumfragment"
             app:destination="@+id/premiumFragment" />
-    </fragment>
 
-<!--    <fragment-->
-<!--        android:id="@+id/nav_gallery"-->
-<!--        android:name="com.example.suzuka_business_contest.ui.gallery.GalleryFragment"-->
-<!--        android:label="@string/menu_gallery"-->
-<!--        tools:layout="@layout/fragment_gallery" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_homefragment_to_doorsensorfragment"-->
+<!--            app:destination="@+id/doorsensorFragment" />-->
+    </fragment>
 
     <fragment
         android:id="@+id/nav_premium"
         android:name="com.example.suzuka_business_contest.ui.premium.PremiumFragment"
         android:label="@string/menu_premium"
         tools:layout="@layout/fragment_premium" />
+
+    <fragment
+        android:id="@+id/nav_doorsensor"
+        android:name="com.example.suzuka_business_contest.ui.doorsensor.DoorsensorFragment"
+        android:label="Doorsensor_detail"
+        tools:layout="@layout/fragment_doorsensor_detail" />
 
 </navigation>
