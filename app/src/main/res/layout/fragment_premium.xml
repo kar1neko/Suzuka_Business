@@ -87,7 +87,7 @@
 
     <TextView
         android:id="@+id/tv_P_fee"
-        android:text="x円/月"
+        android:text="1000円/月"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_width="150dp"
@@ -97,7 +97,24 @@
         app:layout_constraintTop_toTopOf="@+id/bg_premium"
         app:layout_constraintStart_toStartOf="@+id/bg_premium"/>
 
+    <TextView
+        android:id="@+id/tv_corporationPlan"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="法人は"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:textColor="#0000ff"
+        android:text="こちら"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toRightOf="@+id/tv_corporationPlan"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
